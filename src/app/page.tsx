@@ -54,7 +54,12 @@ export default function HomePage() {
         ))}
       </section>
 
-      <footer className="footer">© {new Date().getFullYear()} TrenzaCorp</footer>
+      <footer className="footer" aria-label="Información legal">
+        <p>© {new Date().getFullYear()} TrenzaCorp</p>
+        <p>Name: Luis Alejandro Rojas Ramirez</p>
+        <p>Cédula: 112680725</p>
+        <p>Address: 100 e 100 s BCR, San Sebastian, San Jose 10111, Costa Rica</p>
+      </footer>
     </main>
   )
 }

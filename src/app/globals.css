@@ -164,9 +164,14 @@ a { color: inherit; text-decoration: none; }
 
 .footer {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   color: var(--muted);
   font-size: 0.95rem;
 }
+
+.footer p { margin: 0; }
 
 @media (max-width: 640px) {
   .topbar { align-items: flex-start; flex-direction: column; }
