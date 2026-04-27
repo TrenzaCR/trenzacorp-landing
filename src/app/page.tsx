@@ -55,10 +55,10 @@ export default function HomePage() {
       </section>
 
       <footer className="footer" aria-label="Información legal">
-        <p>© {new Date().getFullYear()} TrenzaCorp</p>
-        <p>Name: Luis Alejandro Rojas Ramirez</p>
-        <p>Cédula: 112680725</p>
-        <p>Address: 100 e 100 s BCR, San Sebastian, San Jose 10111, Costa Rica</p>
+        <p>© 2026 TrenzaCorp</p>
+        <p>TrenzaCorp es una marca operada por Luis Alejandro Rojas Ramírez</p>
+        <p>Cédula / ID Fiscal: 112680725</p>
+        <p>Dirección: 100 e 100 s BCR, San Sebastian, San Jose 10111, Costa Rica</p>
       </footer>
     </main>
   )
